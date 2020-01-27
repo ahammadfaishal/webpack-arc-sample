@@ -1,0 +1,23 @@
+{
+  "ENV" : "development",
+
+  "PORT" : {
+    "ADMIN": {
+      "DEV": 4000,
+      "PROD": 4000
+    }
+  },
+
+  "MONGO_URI" : {
+
+    "DEVELOPMENT" : "mongodb://localhost:27017/mean-db",
+
+    "PRODUCTION" : "mongodb://localhost:27017/mean-db",
+
+    "TEST" : "mongodb://localhost:27017/vulgar-test"
+  },
+
+
+  "SESSION_SECRET" : "355FC4FE9348639B4E4FED1B8E93C"
+}
+
